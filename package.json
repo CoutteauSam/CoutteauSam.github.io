@@ -1,0 +1,26 @@
+{
+  "name": "coutteausam.github.io",
+  "version": "0.0.0",
+  "description": "Personal Website",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "develop": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoutteauSam/CoutteauSam.github.io.git"
+  },
+  "author": "Sam Coutteau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoutteauSam/CoutteauSam.github.io/issues"
+  },
+  "homepage": "https://github.com/CoutteauSam/CoutteauSam.github.io#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
