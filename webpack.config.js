@@ -9,6 +9,14 @@ module.exports = {
 	publicPath: '/',
 	clean: true,
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
 		title: "My app",
