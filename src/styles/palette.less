@@ -1,0 +1,52 @@
+:root, :root.default {
+    --primary: #000;
+    --bg-primary: #ddd;
+    --secondary: #eee;
+    --bg-secondary: #999;
+    --github: #333;
+    --linkedin: #0077b5;
+    --email: #EA4335;
+}
+
+:root.dark {
+    --primary: #eee;
+    --bg-primary: #333;
+    --secondary: #eee;
+    --bg-secondary: #222;
+    --github: #f5f5f5;
+}
+
+.prm, .prm-i>*, .prm-fg, .prm-fg-i>*, .prm-bg, .snd, .snd-i>*, .snd-fg, .snd-bg, .github, .linkedin, .email {
+    transition: 0.5s ease all;
+    transition-property: background-color, color, border-color;
+}
+
+.prm, .prm-i>*, .prm-fg, .prm-fg-i>* {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.prm, .prm-i>*, .prm-bg {
+    background-color: var(--bg-primary);
+}
+
+.snd, .snd-i>*, .snd-fg {
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+
+.snd, .snd-i>*, .snd-bg {
+    background-color: var(--bg-secondary);
+}
+
+.github {
+    color: var(--github);
+}
+
+.linkedin {
+    color: var(--linkedin);
+}
+
+.email {
+    color: var(--email);
+}

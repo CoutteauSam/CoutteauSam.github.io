@@ -1,0 +1,49 @@
+@import "layout.less";
+
+.nav {
+    // positioning
+    position: absolute;
+    left: 0;
+    top: 0;
+    // height
+    height: 100vh;
+    // default collapsed
+    transition: 0.4s ease transform;
+    transform: translateX(-100%);
+    // expand on focus or hover
+    &:focus,
+    &:hover {
+        transform: translateX(0%);
+    }
+    // content layout
+    > .nav-content {
+        display: block;
+        height: 100%;
+    }
+    // tab
+    > .nav-tab {
+        // position outside of main content
+        position: absolute;
+        left: 100%;
+        top: 0;
+        height: 100%;
+        // layout
+        .start();
+        // padding to enable hover when collapsed
+        > .bar {
+            height: 100%;
+            width: 0.25em;
+        }
+        // main hover region when collapsed
+        > .tab {
+            font-size: 120%;
+            margin-top: 2em;
+            width: 1.5em;
+            height: 1.5em;
+            border-radius: 0 0.5em 0.5em 0;
+            // removes 1 pixel whitespace
+            border-left: inherit 1px solid;
+            margin-left: -1px;
+        }
+    }
+}

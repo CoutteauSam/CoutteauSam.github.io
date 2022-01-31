@@ -1,28 +1,36 @@
 {
-  "name": "coutteausam.github.io",
-  "version": "0.0.0",
-  "description": "Personal Website",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production",
-    "develop": "webpack --mode=development"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CoutteauSam/CoutteauSam.github.io.git"
-  },
-  "author": "Sam Coutteau",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CoutteauSam/CoutteauSam.github.io/issues"
-  },
-  "homepage": "https://github.com/CoutteauSam/CoutteauSam.github.io#readme",
-  "devDependencies": {
-    "css-loader": "^6.5.1",
-    "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.67.0",
-    "webpack-cli": "^4.9.2"
-  }
+    "name": "coutteausam.github.io",
+    "version": "0.0.0",
+    "description": "Personal Website",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode=production",
+        "develop": "webpack --mode=development",
+        "dev-server": "webpack serve --open --mode=development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CoutteauSam/CoutteauSam.github.io.git"
+    },
+    "author": "Sam Coutteau",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CoutteauSam/CoutteauSam.github.io/issues"
+    },
+    "homepage": "https://github.com/CoutteauSam/CoutteauSam.github.io#readme",
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "css-loader": "^6.5.1",
+        "html-webpack-plugin": "^5.5.0",
+        "less": "^4.1.2",
+        "less-loader": "^10.2.0",
+        "mini-css-extract-plugin": "^2.5.3",
+        "webpack": "^5.67.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.3"
+    },
+    "dependencies": {
+        "jquery": "^3.6.0"
+    }
 }

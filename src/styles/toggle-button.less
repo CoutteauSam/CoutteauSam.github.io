@@ -1,0 +1,32 @@
+.toggle {
+    appearance: none;
+    cursor: pointer;
+    height: 1em;
+    width: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    background-color: #b91;
+    transition: background-color 0.25s ease;
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        border-radius: 10px;
+        background: white;
+        transition: transform 0.25s ease;
+    }
+
+    &:checked {
+        background-color: #114;
+
+        &::after {
+            transform: translatex(100%);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.bars {
+    display: inline-flex;
+
+    >* {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+
+        +* {
+            border-left-width: 2px;
+            border-left-style: solid;
+        }
+    }
+}
