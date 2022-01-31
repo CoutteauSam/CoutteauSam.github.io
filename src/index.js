@@ -1,9 +1,9 @@
-import "./styles/base.less";
+/*import "./styles/base.less";
 import "./styles/layout.less";
 import "./styles/palette.less";
 import "./styles/styling.less";
 import "./styles/nav-bar.less";
-import "./styles/toggle-button.less";
+import "./styles/toggle-button.less";*/
 
 /*
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -15,10 +15,10 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faAt } from '@fortawesome/free-solid-svg-icons';
 */
 
-import { library, dom } from '@fortawesome/fontawesome-svg-core'
+/*import { library, dom } from '@fortawesome/fontawesome-svg-core'
 import { faAt } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'*/
 
 library.add(faGithub, faLinkedin, faAt, faBars)
 
