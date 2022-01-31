@@ -19,3 +19,5 @@ https://webpack.js.org/guides/development/
 https://stackoverflow.com/questions/52376720/how-to-make-font-awesome-5-work-with-webpack
 
 https://lesscss.org/
+
+https://webpack.js.org/plugins/css-minimizer-webpack-plugin/
